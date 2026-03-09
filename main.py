@@ -59,7 +59,7 @@ async def analyze_face(
                 # ====================== IMPROVED DETECTION FOR SIDE/PARTIAL FACES ======================
         # Pehle normal try
         landmarks, confidence, num_faces = get_landmarks_and_confidence(img_rgb)
-        print(f"🔍 Faces detected: {num_faces} | Confidence: {confidence:.3f}")
+        print(f"🔍 Faces detected: {num_faces} | Confidence: {confidence:.3f}`")
 
         # Agar fail ho to soft crop + retry
         if landmarks is None or confidence < 0.50:
