@@ -55,17 +55,11 @@ The system performs the following tasks:
 - NumPy
 - Pillow
 
-### Visualization (Optional)
-- Matplotlib
-
-### Containerization (Optional)
-- Docker
-
 ---
 
 ## Project Structure
 
-face_backend/
+FaceAnalyzer_backend/
 
 main.py  
 FastAPI application and API endpoints
@@ -76,8 +70,6 @@ Core face analysis logic
 requirements.txt  
 Project dependencies
 
-Dockerfile  
-Docker configuration (optional)
 
 uploads/  
 Stores uploaded and processed images
@@ -102,11 +94,11 @@ Symmetry score calculation
 
 Clone the repository:
 
-git clone https://github.com/your-username/face-preference-analyzer.git
+git clone https://github.com/therealammar25/face_analyzer
 
 Go to project folder:
 
-cd face_backend
+cd FaceAnalyzer_backend
 
 ---
 
